@@ -1,0 +1,11 @@
+
+LD R1 R2 ;
+ADD R2 R3 ;
+LABEL1 : 
+CMP R2 R1 ;
+PUSH ;
+SBF F1 F2 F3 ;
+JMP LABEL1 ;
+LABEL2 :
+STC ; 
+HLT ;
